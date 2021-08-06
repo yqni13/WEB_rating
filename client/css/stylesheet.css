@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppings', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a2844;
+}
+
+.container {
+    background: #161120;
+    padding: 20px 28px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    width: auto;
+}
+
+.star-container {
+    direction: rtl;
+    text-align: center;
+}
+
+button {
+    color: white;
+    font-size: 32px;
+    margin: 4px;
+    background: transparent;
+    border: none;
+    transition: 0.2s;
+}
+
+#rating {
+    color: white;
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container button:hover {
+    color: #99007F;
+}
+.star1:hover ~ .star {
+    color: #99007F;
+}
+.star2:hover ~ .star {
+    color: #99007F;
+}
+.star3:hover ~ .star {
+    color: #99007F;
+}
+.star4:hover ~ .star {
+    color: #99007F;
+}
+.star5:hover ~ .star {
+    color: #99007F;
+}
+.hovered {
+    color: #99007F;
+}
+.hovered ~ .star {
+    color: #99007F;
+}
